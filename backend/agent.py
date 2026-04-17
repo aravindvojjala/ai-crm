@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 # client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-client = Groq(api_key="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")
+client = Groq(api_key="you_api_key")
 
 conn = sqlite3.connect("crm.db", check_same_thread=False)
 cursor = conn.cursor()
